@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: fit-content;
 }
 
 .App-logo {
@@ -35,4 +36,150 @@
   to {
     transform: rotate(360deg);
   }
+}
+.form-box {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 270px;
+	height: 330px;
+}
+.form-boxSignup {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 270px;
+	height: 380px;
+}
+.form-box input {
+	border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:rgb(116, 225, 66);
+    font-size: 16px;
+}
+.form-box input:hover{
+  border-bottom: 1px solid rgb(116, 255, 66);
+}
+.form-signupInput
+{
+  border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    color: rgb(116, 225, 66);
+    margin-bottom: 5px;
+}
+.form-signupInput:hover{
+    border-bottom: 1px solid rgb(116, 225, 66);
+    
+}
+::placeholder{
+  color: #fff;
+  opacity: 1;
+}
+.header-text {
+	font-size: 32px;
+	font-weight: 600;
+  color: #fff;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.header-textsignup
+{
+  font-size: 26px;
+	font-weight: 500;
+  color: #fff;
+  margin-top: 0px;
+	
+}
+.form-box label {
+	position: relative;
+	margin-left: 5px;
+	margin-right: 10px;
+	top: 5px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.form-box label:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: #fff;
+}
+.form-box button {
+	border: none;
+    outline: none;
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    background: #79baed;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.form-box button:hover{
+  background-color: rgb(97, 221, 97);
+  color: rgb(235, 28, 52);
+}
+.buttonSignup {
+	border: none;
+    outline: none;
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    background: #79baed;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.buttonSignup:hover{
+  background-color: rgb(97, 221, 97);
+  color: rgb(235, 28, 52);
+}
+.desc{
+  margin-top: 5px;
+}
+.text{
+  color: rgb(34, 173, 21);
+}
+.link{
+ color: ghostwhite;
+}
+
+img{
+  
+  min-width: 100%;
+  min-height: 100%;
+  margin: auto auto;
+  position: fixed;
+  max-width: fit-content;
+  background-position: center;
+  text-align: center;
 }
